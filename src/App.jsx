@@ -112,7 +112,7 @@ export default function App() {
           <div className="flex justify-between h-16 items-center">
             <div className="flex-shrink-0 flex items-center cursor-pointer" onClick={() => navigateTo('home')}>
               <ShoppingCart className="h-8 w-8 text-indigo-600" />
-              <span className="ml-2 text-xl font-bold text-gray-900 tracking-tight">KawanBelanja</span>
+              <span className="ml-2 text-xl font-bold text-gray-900 tracking-tight">Jaringan Makmur Jaya</span>
             </div>
 
             <div className="hidden md:flex space-x-8">
@@ -171,12 +171,12 @@ export default function App() {
         <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8 text-center md:text-left flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <h3 className="text-lg font-bold flex items-center justify-center md:justify-start">
-              <ShoppingCart className="h-5 w-5 mr-2" /> KawanBelanja
+              <ShoppingCart className="h-5 w-5 mr-2" /> Jaringan Makmur Jaya
             </h3>
             <p className="text-gray-400 text-sm mt-1">Gaya masa kini, belanja tanpa henti.</p>
           </div>
           <div className="text-sm text-gray-400">
-            &copy; {new Date().getFullYear()} KawanBelanja. Seluruh hak cipta dilindungi.
+            &copy; {new Date().getFullYear()} Jaringan Makmur Jaya. Seluruh hak cipta dilindungi.
           </div>
         </div>
       </footer>
@@ -216,7 +216,7 @@ function LandingPage({ navigateTo, productsData }) {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Siapa Kami?</h2>
           <p className="text-gray-600 text-lg leading-relaxed">
-            KawanBelanja hadir untuk kamu yang dinamis dan aktif. Berdiri sejak tahun 2021, kami mengurasi berbagai produk dari kategori <i>fashion</i> hingga elektronik ringan dengan mengutamakan kualitas, desain kekinian, serta harga yang bersahabat. Kami percaya bahwa gaya yang bagus tidak harus mahal, dan belanja online haruslah menyenangkan serta bebas hambatan.
+            Jaringan Makmur Jaya hadir untuk kamu yang dinamis dan aktif. Berdiri sejak tahun 2021, kami mengurasi berbagai produk dari kategori <i>fashion</i> hingga elektronik ringan dengan mengutamakan kualitas, desain kekinian, serta harga yang bersahabat. Kami percaya bahwa gaya yang bagus tidak harus mahal, dan belanja online haruslah menyenangkan serta bebas hambatan.
           </p>
         </div>
       </section>
@@ -279,7 +279,7 @@ function LandingPage({ navigateTo, productsData }) {
                 <Mail className="h-8 w-8" />
               </div>
               <h3 className="font-bold text-gray-900 mb-2">Email</h3>
-              <p className="text-gray-600">halo@kawanbelanja.com</p>
+              <p className="text-gray-600">jaringanmakmurjaya@gmail.com</p>
             </div>
             <div className="flex flex-col items-center p-6 rounded-2xl bg-gray-50 hover:bg-indigo-50 transition-colors cursor-pointer" onClick={() => navigateTo('contact')}>
               <div className="bg-indigo-100 p-4 rounded-full mb-4 text-indigo-600">
@@ -497,7 +497,7 @@ function ContactPage() {
               <div className="ml-4">
                 <h3 className="text-lg font-medium text-gray-900">Alamat Kantor Pusat</h3>
                 <p className="mt-1 text-gray-600">
-                  Gedung KawanBelanja Lt. 3<br />
+                  Gedung Jaringan Makmur Jaya Lt. 3<br />
                   Jl. Pahlawan Seribu No. 45<br />
                   BSD City, Tangerang, Banten 15322<br />
                   Indonesia
@@ -511,8 +511,8 @@ function ContactPage() {
               </div>
               <div className="ml-4">
                 <h3 className="text-lg font-medium text-gray-900">WhatsApp Pelanggan</h3>
-                <p className="mt-1 text-gray-600 font-medium">+62 812 3456 7890</p>
-                <p className="text-sm text-gray-500">(Senin - Jumat, 09.00 - 18.00 WIB)</p>
+                <p className="mt-1 text-gray-600 font-medium">+62 851-1122-5898</p>
+                <p className="text-sm text-gray-500">(Senin - Sabtu, 09.00 - 18.00 WIB)</p>
               </div>
             </div>
 
@@ -522,8 +522,8 @@ function ContactPage() {
               </div>
               <div className="ml-4">
                 <h3 className="text-lg font-medium text-gray-900">Email</h3>
-                <p className="mt-1 text-gray-600">halo@kawanbelanja.com</p>
-                <p className="mt-1 text-gray-600">support@kawanbelanja.com</p>
+                <p className="mt-1 text-gray-600">jaringanmakmurjaya@gmail.com</p>
+                <p className="mt-1 text-gray-600">jaringanmakmurjaya@gmail.com</p>
               </div>
             </div>
           </div>
