@@ -198,10 +198,10 @@ function LandingPage({ navigateTo, productsData }) {
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white tracking-tight mb-4 drop-shadow-md">
-            Gaya Hidup <span className="text-indigo-400">Modern</span>
+            Alat dan Kabel Fiber Optik <span className="text-indigo-400">Termurah</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl drop-shadow">
-            Temukan koleksi pakaian, sepatu, dan aksesoris terbaik untuk melengkapi aktivitas harianmu dengan percaya diri.
+            Dapatkan kualiatas dan harga terbaik di setiap produk kami. Untuk kebutuhan jaringan internet Fiber Optik Anda, kami selalu memberikan kualitas yang terbaik!
           </p>
           <button 
             onClick={() => navigateTo('products')}
@@ -216,7 +216,7 @@ function LandingPage({ navigateTo, productsData }) {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Siapa Kami?</h2>
           <p className="text-gray-600 text-lg leading-relaxed">
-            Jaringan Makmur Jaya hadir untuk kamu yang dinamis dan aktif. Berdiri sejak tahun 2021, kami mengurasi berbagai produk dari kategori <i>fashion</i> hingga elektronik ringan dengan mengutamakan kualitas, desain kekinian, serta harga yang bersahabat. Kami percaya bahwa gaya yang bagus tidak harus mahal, dan belanja online haruslah menyenangkan serta bebas hambatan.
+            Jaringan Makmur Jaya hadir untuk kamu yang dinamis dan aktif. Berdiri sejak tahun 2021, kami mengurasi berbagai produk dari kategori <i>Fiber Optik</i> hingga aksesoris ringan dengan mengutamakan kualitas serta harga yang bersahabat. Kami percaya bahwa ketahanan dan stabilitas sangat penting untuk jaringan Anda, dan belanja online haruslah menyenangkan serta bebas hambatan.
           </p>
         </div>
       </section>
